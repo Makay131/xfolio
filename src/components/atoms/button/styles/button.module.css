@@ -1,0 +1,27 @@
+.wrapper {
+  @apply rounded-full uppercase font-normal text-sm;
+}
+
+.button-primary {
+  @apply bg-xfolio-gradient text-xfolio-black-primary;
+}
+
+.button-dark {
+  @apply bg-xfolio-black-primary text-xfolio-white-primary;
+}
+
+.button-light {
+  @apply bg-transparent border border-xfolio-black-secondary text-xfolio-black-primary;
+}
+
+.button-sm {
+  @apply py-1 px-3;
+}
+
+.button-md {
+  @apply py-2 px-6;
+}
+
+.button-lg {
+  @apply py-3 px-6;
+}
