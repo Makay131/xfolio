@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <div>Hello</div>
-      <Button context="get in touch" variant="light" />
+      <Button context="get in touch" variant="primary" />
     </>
   );
 }

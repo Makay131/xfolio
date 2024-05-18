@@ -3,15 +3,15 @@
 }
 
 .button-primary {
-  @apply bg-xfolio-gradient text-xfolio-black-primary;
+  @apply bg-xfolio-gradient transition-colors duration-300 text-xfolio-black-primary hover:bg-xfolio-gradient-reversed;
 }
 
 .button-dark {
-  @apply bg-xfolio-black-primary text-xfolio-white-primary;
+  @apply bg-xfolio-black-primary border border-xfolio-black-primary text-xfolio-white-primary hover:bg-xfolio-white-secondary hover:text-xfolio-black-primary transition-colors duration-300 hover:border-xfolio-black-primary;
 }
 
 .button-light {
-  @apply bg-transparent border border-xfolio-black-secondary text-xfolio-black-primary;
+  @apply bg-transparent border border-xfolio-black-secondary text-xfolio-black-primary hover:bg-xfolio-black-secondary hover:text-xfolio-white-primary transition-colors duration-300;
 }
 
 .button-sm {
