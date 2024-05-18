@@ -13,6 +13,9 @@ export default {
         'xfolio-white-primary': '#F0F2F5',
         'xfolio-white-secondary': '#FFF',
       },
+      screens: {
+        '2xl': '1440px',
+      },
     },
   },
   plugins: [],

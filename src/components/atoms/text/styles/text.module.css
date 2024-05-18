@@ -1,0 +1,63 @@
+.heading-lg {
+  @apply text-2xl lg:text-4xl 2xl:text-5xl;
+}
+
+.heading-md {
+  @apply text-xl lg:text-3xl 2xl:text-4xl;
+}
+
+.heading-sm {
+  @apply text-lg lg:text-2xl 2xl:text-3xl;
+}
+
+.title-lg {
+  @apply text-xl lg:text-2xl 2xl:text-2xl;
+}
+
+.title-md {
+  @apply text-lg lg:text-xl 2xl:text-xl;
+}
+
+.title-sm {
+  @apply text-base lg:text-lg 2xl:text-lg;
+}
+
+.paragraph-lg {
+  @apply text-base lg:text-lg 2xl:text-lg;
+}
+
+.paragraph-md {
+  @apply text-sm lg:text-base 2xl:text-base;
+}
+
+.paragraph-sm {
+  @apply text-xs lg:text-sm 2xl:text-sm;
+}
+
+.listItem-lg {
+  @apply text-base;
+}
+
+.listItem-md {
+  @apply text-sm;
+}
+
+.listItem-sm {
+  @apply text-xs;
+}
+
+.label-lg {
+  @apply text-base;
+}
+
+.label-md {
+  @apply text-sm;
+}
+
+.label-sm {
+  @apply text-xs;
+}
+
+.highlight {
+  @apply bg-clip-text bg-xfolio-gradient text-transparent;
+}
